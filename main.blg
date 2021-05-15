@@ -1,0 +1,20 @@
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is 'main.blg'
+[146] biber-MSWIN32:340> INFO - === 
+[202] Biber.pm:415> INFO - Reading 'main.bcf'
+[404] Biber.pm:952> INFO - Found 36 citekeys in bib section 0
+[422] Biber.pm:4340> INFO - Processing section 0
+[445] Biber.pm:4531> INFO - Looking for bibtex format file 'tongjithesis.bib' for section 0
+[533] bibtex.pm:1689> INFO - LaTeX decoding ...
+[607] bibtex.pm:1494> INFO - Found BibTeX data source 'tongjithesis.bib'
+[609] Utils.pm:395> WARN - Duplicate entry key: 'liu2016rebalancing' in file 'tongjithesis.bib', skipping ...
+[611] Utils.pm:395> WARN - Duplicate entry key: 'liu2016rebalancing' in file 'tongjithesis.bib', skipping ...
+[925] Utils.pm:395> WARN - legacy year field 'forthcoming' in entry 'shen2018mobility' is not an integer - this will probably not sort properly.
+[927] Utils.pm:395> WARN - Entry 'shen2018mobility' (tongjithesis.bib): Invalid format 'forthcoming' of date field 'date' - ignoring
+[1005] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1006] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1006] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1006] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[1032] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1058] bbl.pm:757> INFO - Output to main.bbl
+[1058] Biber.pm:128> INFO - WARNINGS: 4
