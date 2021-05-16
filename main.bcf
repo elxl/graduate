@@ -2855,12 +2855,13 @@
     <bcf:citekey order="22">mannering2014analytic</bcf:citekey>
     <bcf:citekey order="23">lukusa2020horvitz</bcf:citekey>
     <bcf:citekey order="24">molnar2019</bcf:citekey>
-    <bcf:citekey order="25">gurobi2018gurobi</bcf:citekey>
-    <bcf:citekey order="26">shen2018mobility</bcf:citekey>
-    <bcf:citekey order="27">kaviti2019assessing</bcf:citekey>
-    <bcf:citekey order="28">chemla2013bike</bcf:citekey>
-    <bcf:citekey order="28">liu2016rebalancing</bcf:citekey>
-    <bcf:citekey order="28">pfrommer2014dynamic</bcf:citekey>
+    <bcf:citekey order="25">SHAPJO</bcf:citekey>
+    <bcf:citekey order="26">gurobi2018gurobi</bcf:citekey>
+    <bcf:citekey order="27">shen2018mobility</bcf:citekey>
+    <bcf:citekey order="28">kaviti2019assessing</bcf:citekey>
+    <bcf:citekey order="29">chemla2013bike</bcf:citekey>
+    <bcf:citekey order="29">liu2016rebalancing</bcf:citekey>
+    <bcf:citekey order="29">pfrommer2014dynamic</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

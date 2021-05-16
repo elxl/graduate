@@ -1471,6 +1471,46 @@
       \field{dateera}{ce}
       \keyw{molnar2019,\url{https://christophm.github.io/interpretable-ml-book/}}
     \endentry
+    \entry{SHAPJO}{online}{}
+      \name{author}{1}{}{%
+        {{hash=86b33f4d07e37b128f43eebe78af1213}{%
+           family={Poduska},
+           familyi={P\bibinitperiod},
+           given={Joshua},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{86b33f4d07e37b128f43eebe78af1213}
+      \strng{fullhash}{86b33f4d07e37b128f43eebe78af1213}
+      \strng{bibnamehash}{86b33f4d07e37b128f43eebe78af1213}
+      \strng{authorbibnamehash}{86b33f4d07e37b128f43eebe78af1213}
+      \strng{authornamehash}{86b33f4d07e37b128f43eebe78af1213}
+      \strng{authorfullhash}{86b33f4d07e37b128f43eebe78af1213}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{SHAP and LIME Python Libraries:Part 2 - Using SHAP and LIME}
+      \field{urlday}{14}
+      \field{urlmonth}{1}
+      \field{urlyear}{2019}
+      \field{usera}{EB}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://blog.dominodatalab.com/shap-lime-python-libraries-part-2-using-shap-lime/
+      \endverb
+      \verb{url}
+      \verb https://blog.dominodatalab.com/shap-lime-python-libraries-part-2-using-shap-lime/
+      \endverb
+      \keyw{SHAPJO}
+    \endentry
     \entry{gurobi2018gurobi}{article}{}
       \name{author}{1}{}{%
         {{hash=a3ec90d45296c51bc52a5637dfd3ba3d}{%
