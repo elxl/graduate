@@ -40,13 +40,13 @@
 \RequirePackage[top=24mm,bottom=20mm,left=35mm,right=20mm,includefoot]{geometry}
 
 %%% font specification %%%
-\setCJKmainfont[BoldFont=FZHei-B01S, ItalicFont=FZKai-Z03S,Mapping=fullwidth-stop]{FZShuSong-Z01S}
-\setCJKmonofont[Mapping=fullwidth-stop]{FZKai-Z03S}
+\setCJKmainfont[BoldFont=FZHei-B01S, ItalicFont=FZKai-Z03S,Mapping=full-stop]{FZShuSong-Z01S}
+\setCJKmonofont[Mapping=full-stop]{FZKai-Z03S}
 
-\setCJKfamilyfont{kai}[Mapping=fullwidth-stop]{FZKai-Z03S}
-\setCJKfamilyfont{hei}[Mapping=fullwidth-stop]{FZHei-B01S}
-\setCJKfamilyfont{cuhei}[Mapping=fullwidth-stop]{FZDaHei-B02S}
-\setCJKfamilyfont{songhei}[Mapping=fullwidth-stop]{FZSongHei-B07S}
+\setCJKfamilyfont{kai}[Mapping=full-stop]{FZKai-Z03S}
+\setCJKfamilyfont{hei}[Mapping=full-stop]{FZHei-B01S}
+\setCJKfamilyfont{cuhei}[Mapping=full-stop]{FZDaHei-B02S}
+\setCJKfamilyfont{songhei}[Mapping=full-stop]{FZSongHei-B07S}
 
 \newcommand{\kaiti}{\CJKfamily{kai}}
 \renewcommand{\heiti}{\CJKfamily{hei}}

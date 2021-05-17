@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.5.9)  16 MAY 2021 19:15
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.5.9)  17 MAY 2021 12:21
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -246,19 +246,19 @@ Package fontspec Info: Could not resolve font "FZShuSong-Z01S/BI" (it probably
 
 Package fontspec Info: Font family 'FZShuSong-Z01S(0)' created for font
 (fontspec)             'FZShuSong-Z01S' with options
-(fontspec)             [Script={CJK},Mapping={fullwidth-stop},BoldFont={FZHei-B01S},ItalicFont={FZKai-Z03S}].
+(fontspec)             [Script={CJK},Mapping={full-stop},BoldFont={FZHei-B01S},ItalicFont={FZKai-Z03S}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"FZShuSong-Z01S/OT:script=hani;language=dflt;mapping=fullwidth-stop;"
+(fontspec)             <->"FZShuSong-Z01S/OT:script=hani;language=dflt;mapping=full-stop;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"FZHei-B01S/OT:script=hani;language=dflt;mapping=fullwidth-stop;"
+(fontspec)             <->"FZHei-B01S/OT:script=hani;language=dflt;mapping=full-stop;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"FZKai-Z03S/OT:script=hani;language=dflt;mapping=fullwidth-stop;"
+(fontspec)             <->"FZKai-Z03S/OT:script=hani;language=dflt;mapping=full-stop;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
 
 
@@ -1818,13 +1818,13 @@ Package fontspec Info: Could not resolve font "FZDaHei-B02S/I" (it probably
 
 Package fontspec Info: Font family 'FZDaHei-B02S(0)' created for font
 (fontspec)             'FZDaHei-B02S' with options
-(fontspec)             [Script={CJK},Mapping={fullwidth-stop}].
+(fontspec)             [Script={CJK},Mapping={full-stop}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"FZDaHei-B02S/OT:script=hani;language=dflt;mapping=fullwidth-stop;"
+(fontspec)             <->"FZDaHei-B02S/OT:script=hani;language=dflt;mapping=full-stop;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 56.
@@ -1880,13 +1880,13 @@ Package fontspec Info: Could not resolve font "FZSongHei-B07S/I" (it probably
 
 Package fontspec Info: Font family 'FZSongHei-B07S(0)' created for font
 (fontspec)             'FZSongHei-B07S' with options
-(fontspec)             [Script={CJK},Mapping={fullwidth-stop}].
+(fontspec)             [Script={CJK},Mapping={full-stop}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"FZSongHei-B07S/OT:script=hani;language=dflt;mapping=fullwidth-stop;"
+(fontspec)             <->"FZSongHei-B07S/OT:script=hani;language=dflt;mapping=full-stop;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 File: logo.pdf Graphic file (type pdf)
@@ -1912,13 +1912,13 @@ Package fontspec Info: Could not resolve font "FZHei-B01S/I" (it probably
 
 Package fontspec Info: Font family 'FZHei-B01S(0)' created for font
 (fontspec)             'FZHei-B01S' with options
-(fontspec)             [Script={CJK},Mapping={fullwidth-stop}].
+(fontspec)             [Script={CJK},Mapping={full-stop}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"FZHei-B01S/OT:script=hani;language=dflt;mapping=fullwidth-stop;"
+(fontspec)             <->"FZHei-B01S/OT:script=hani;language=dflt;mapping=full-stop;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 
@@ -1972,25 +1972,37 @@ File: logo.pdf Graphic file (type pdf)
 
 
 ]
+File: figures_main/dis_time.png Graphic file (type bmp)
+<figures_main/dis_time.png>
+File: figures_main/week_demand.png Graphic file (type bmp)
+<figures_main/week_demand.png>
+File: figures_main/tempre.png Graphic file (type bmp)
+<figures_main/tempre.png>
+File: logo.pdf Graphic file (type pdf)
+<use logo.pdf>
+ [8]
+File: logo.pdf Graphic file (type pdf)
+<use logo.pdf>
+ [9]
 File: figures_main/counthist.png Graphic file (type bmp)
 <figures_main/counthist.png>
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
- [8]
+ [10]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9.03374> on input line 228.
+(Font)              <9.03374> on input line 262.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 228.
+(Font)              <6> on input line 262.
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
- [9] Excluding 'comment' comment.
+ [11] Excluding 'comment' comment.
 
-LaTeX Warning: Reference `weekend_score' on page 10 undefined on input line 268.
+LaTeX Warning: Reference `weekend_score' on page 12 undefined on input line 302.
 
 Excluding 'comment' comment. Excluding 'comment' comment.
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
- [10]
+ [12]
 File: figures_main/ex_weekday1.png Graphic file (type bmp)
 <figures_main/ex_weekday1.png>
 File: figures_main/ex_weekday2.png Graphic file (type bmp)
@@ -1999,7 +2011,7 @@ File: figures_main/shape_weekday.png Graphic file (type bmp)
 <figures_main/shape_weekday.png>
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
- [11]
+ [13]
 File: figures_main/shap1_weekday.png Graphic file (type bmp)
 <figures_main/shap1_weekday.png>
 File: figures_main/shap_weekend.png Graphic file (type bmp)
@@ -2008,14 +2020,14 @@ File: figures_main/shap1_weekend.png Graphic file (type bmp)
 <figures_main/shap1_weekend.png>
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
- [12]
+ [14]
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
- [13]
+ [15]
 3
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
-[14
+[16
 
 
 ]
@@ -2023,13 +2035,13 @@ File: figures_main/network_example.png Graphic file (type bmp)
 <figures_main/network_example.png>
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
- [15]
-File: logo.pdf Graphic file (type pdf)
-<use logo.pdf>
- [16]
-File: logo.pdf Graphic file (type pdf)
-<use logo.pdf>
  [17]
+File: logo.pdf Graphic file (type pdf)
+<use logo.pdf>
+ [18]
+File: logo.pdf Graphic file (type pdf)
+<use logo.pdf>
+ [19]
 4
 File: figures_main/regions.png Graphic file (type bmp)
 <figures_main/regions.png>
@@ -2037,97 +2049,97 @@ File: figures_main/location_yishun.png Graphic file (type bmp)
 <figures_main/location_yishun.png>
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
-[18
+[20
 
 
 ]
-Overfull \hbox (4.07222pt too wide) in paragraph at lines 572--573
+Overfull \hbox (4.07222pt too wide) in paragraph at lines 606--607
  []|\TU/TimesNewRoman(0)/m/n/9.03374 225,488,602,899| 
  []
 
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
-[19]
+[21]
 File: figures_main/selected_nodes10.png Graphic file (type bmp)
 <figures_main/selected_nodes10.png>
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
- [20]
+ [22]
 File: figures_main/visualiza_solution_trike.png Graphic file (type bmp)
 <figures_main/visualiza_solution_trike.png>
 File: figures_main/element_illustration.png Graphic file (type bmp)
 <figures_main/element_illustration.png>
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
- [21]
+ [23]
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
- [22]
+ [24]
 File: figures_main/selected_nodes.png Graphic file (type bmp)
 <figures_main/selected_nodes.png>
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
- [23]
+ [25]
 File: figures_main/sens_trike_notrikecost.png Graphic file (type bmp)
 <figures_main/sens_trike_notrikecost.png>
 File: figures_main/sens_trike_70.png Graphic file (type bmp)
 <figures_main/sens_trike_70.png>
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
- [24]
+ [26]
 File: figures_main/sens_trike_compare.png Graphic file (type bmp)
 <figures_main/sens_trike_compare.png>
 File: figures_main/sensitivity_bike.png Graphic file (type bmp)
 <figures_main/sensitivity_bike.png>
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
- [25]
+ [27]
 File: figures_main/sensitivity_cost.png Graphic file (type bmp)
 <figures_main/sensitivity_cost.png>
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
- [26]
+ [28]
 File: figures_main/sensitivity_price.png Graphic file (type bmp)
 <figures_main/sensitivity_price.png>
 File: figures_main/revenue_change_with_capacity.png Graphic file (type bmp)
 <figures_main/revenue_change_with_capacity.png>
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
- [27]
+ [29]
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
- [28]
+ [30]
 5
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
-[29
+[31
 
 
 ]
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
- [30] Excluding 'comment' comment.
-Underfull \hbox (badness 242) in paragraph at lines 849--849
+ [32] Excluding 'comment' comment.
+Underfull \hbox (badness 242) in paragraph at lines 883--883
 []\TU/TimesNewRoman(0)/m/n/10.53937 ERDOĞAN G, BATTARRA M, CALVO R W. An exact algorithm for the static rebalancing
  []
 
 
-Underfull \hbox (badness 192) in paragraph at lines 849--849
+Underfull \hbox (badness 192) in paragraph at lines 883--883
 []\TU/TimesNewRoman(0)/m/n/10.53937 PAL A, ZHANG Y. Free-floating bike sharing: Solving real-life large-scale static rebalancing
  []
 
 
-Underfull \hbox (badness 111) in paragraph at lines 849--849
+Underfull \hbox (badness 111) in paragraph at lines 883--883
 []\TU/TimesNewRoman(0)/m/n/10.53937 SCHUIJBROEK J, HAMPSHIRE R C, VAN HOEVE W J. Inventory rebalancing and vehicle
  []
 
 
-Underfull \hbox (badness 468) in paragraph at lines 849--849
+Underfull \hbox (badness 468) in paragraph at lines 883--883
 []\TU/TimesNewRoman(0)/m/n/10.53937 FRADE I, RIBEIRO A. Bicycle sharing systems demand[J]. Procedia-Social and Behavioral
  []
 
 
-Underfull \hbox (badness 275) in paragraph at lines 849--849
+Underfull \hbox (badness 275) in paragraph at lines 883--883
 []\TU/TimesNewRoman(0)/m/n/10.53937 KALTENBRUNNER A, MEZA R, GRIVOLLA J, et al. Urban cycles and mobility patterns:
  []
 
@@ -2146,60 +2158,60 @@ Package fontspec Info: Could not resolve font "FZKai-Z03S/I" (it probably
 
 Package fontspec Info: Font family 'FZKai-Z03S(0)' created for font
 (fontspec)             'FZKai-Z03S' with options
-(fontspec)             [Script={CJK},Mapping={fullwidth-stop}].
+(fontspec)             [Script={CJK},Mapping={full-stop}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"FZKai-Z03S/OT:script=hani;language=dflt;mapping=fullwidth-stop;"
+(fontspec)             <->"FZKai-Z03S/OT:script=hani;language=dflt;mapping=full-stop;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 
-Underfull \hbox (badness 102) in paragraph at lines 849--849
+Underfull \hbox (badness 102) in paragraph at lines 883--883
 []\TU/TimesNewRoman(0)/m/n/10.53937 CHEN L, ZHANG D, WANG L, et al. Dynamic cluster-based over-demand prediction in bike
  []
 
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
-[31
+[33
 
 
 ]
-Underfull \hbox (badness 135) in paragraph at lines 849--849
+Underfull \hbox (badness 135) in paragraph at lines 883--883
 []\TU/TimesNewRoman(0)/m/n/10.53937 LI Y, ZHU Z, GUO X. Operating characteristics of dockless bike-sharing systems near metro
  []
 
 
-Underfull \hbox (badness 105) in paragraph at lines 849--849
+Underfull \hbox (badness 105) in paragraph at lines 883--883
 []\TU/TimesNewRoman(0)/m/n/10.53937 DUAN Y, WU J. Optimizing rebalance scheme for dock-less bike sharing systems with adap-
  []
 
 
-Underfull \hbox (badness 169) in paragraph at lines 849--849
+Underfull \hbox (badness 169) in paragraph at lines 883--883
 []\TU/TimesNewRoman(0)/m/n/10.53937 LUKUSA M T, PHOA F K H. A Horvitz-type estimation on incomplete traffic accident data
  []
 
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
-[32]
-Underfull \hbox (badness 265) in paragraph at lines 849--849
+[34]
+Underfull \hbox (badness 265) in paragraph at lines 883--883
 []\TU/TimesNewRoman(0)/m/n/10.53937 Gurobi Optimization Inc. Gurobi optimizer reference manual[J]. URL http://www.gurobi.com,
  []
 
 
-Underfull \hbox (badness 404) in paragraph at lines 849--849
+Underfull \hbox (badness 404) in paragraph at lines 883--883
 []\TU/TimesNewRoman(0)/m/n/10.53937 KAVITI S, VENIGALLA M M. Assessing service and price sensitivities, and pivot elastici-
  []
 
 
-Underfull \hbox (badness 213) in paragraph at lines 849--849
+Underfull \hbox (badness 213) in paragraph at lines 883--883
 \TU/TimesNewRoman(0)/m/n/10.53937 ties of public bikeshare system users through monadic design and ordered logit regression[J].
  []
 
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
-[33]
+[35]
 \tf@thm=\write11
 \openout11 = `main.thm'.
 
@@ -2207,7 +2219,7 @@ File: logo.pdf Graphic file (type pdf)
 AED: lastpage setting LastPage
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
-[34
+[36
 
 
 ] (./main.aux)
@@ -2222,18 +2234,18 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 645D320F03C6A901C6D82A68254D5648;3658.
+(rerunfilecheck)             Checksum: 530EBDBB209B8FEEAF8BAACC4E678A45;3792.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44160 strings out of 476919
- 931243 string characters out of 5825425
- 1957059 words of memory out of 5000000
- 63276 multiletter control sequences out of 15000+600000
+ 44181 strings out of 476919
+ 931651 string characters out of 5825425
+ 1958256 words of memory out of 5000000
+ 63294 multiletter control sequences out of 15000+600000
  429973 words of font info for 134 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  115i,17n,118p,1258b,4948s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (37 pages).
+Output written on main.pdf (39 pages).
