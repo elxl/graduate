@@ -1,6 +1,7 @@
 \NeedsTeXFormat{LaTeX2e}[2007/10/19]
 \ProvidesClass{tongjithesis}[2019/05/17 v0.2.5 The LaTeX template for bachelor thesis of Tongji University]
 \typeout{Document Class `tongjithesis' v0.2.5 by SXKDZ (2019/05)}
+\usepackage{ulem}
 
 %%% class options %%%
 \newif\iftongji@color\tongji@colorfalse
@@ -47,6 +48,7 @@
 \setCJKfamilyfont{hei}[Mapping=full-stop]{FZHei-B01S}
 \setCJKfamilyfont{cuhei}[Mapping=full-stop]{FZDaHei-B02S}
 \setCJKfamilyfont{songhei}[Mapping=full-stop]{FZSongHei-B07S}
+\setCJKfamilyfont{song}{STSong}
 
 \newcommand{\kaiti}{\CJKfamily{kai}}
 \renewcommand{\heiti}{\CJKfamily{hei}}
