@@ -31,13 +31,13 @@
 {School of Electronic and Information Engineering}
 
 \major
-{综合交通信息管理与控制}
+{综合交通信息工程及控制}
 {Automation}
 
 \thesistitle
-{共享单车调度模型研究与影响因素分析}
+{共享单车出行时空特征分析与优化调度研究}
 {}
-{The Research on Multispectral Pedestrian Detection Based on the Visible and Infrared Image Fusion }
+{The Research on the Bikeshraing Relocation Problem and Influential Factors }
 {}
 
 
@@ -58,11 +58,12 @@
 
 
 \begin{cabstract}
-	为了提高共享单车网络的运行效率，共享单车调度被广泛应用于共享单车网络中，用于从将单车从过饱和的区域中运送到欠饱和区域中以实现不同区域的单车量平衡。本文首先对共享单车需求预测的方法进行了讨论，接着提出了一个网络流量模型用于解决单车调度的最优化问题，并通过处理新加坡义顺区的实际共享单车使用数据作为模型输入，验证了次模型的合理性和有效性。在此基础上，继续利用此模型对调度成本、调度用车数量、共享单车数量进行了对于网络最终收益的敏感性分析，分析结果显示系统收益与这些影响因素间有明显联系。本文中所讨论的方法为共享单车网络中的单车投放数量以及定价提供了参考，并给出了有关共享单车网络管理的一些建议。
+	共享单车调度是提高共享单车系统的运行效率的重要手段之一，通过将单车从极度过饱和的区域运送到欠饱和区域，可以实现不同区域的单车供需平衡。本文首先基于共享单车GPS位移数据，解析共享单车出行的时空分布特征，采用可解释机器学习方法建模共享单车出行需求。在需求预测模型基础上，本文创新性地提出了基于网络流模型的共享单车调度方法，并以新加坡义顺区的实际共享单车使用情况为案例进行分析，验证了此模型的合理性和有效性；并继续利用此模型对调度成本、调度用车数量、共享单车数量进行了对于网络最终收益的敏感性分析。分析结果显示（1）可解释性的机器学习模型在保证预测精度的情况下对各因素的影响效果进行解释，与传统基于一般化线性回归模型结果保持一致（2）建立的网络流模型对调度计划制订可以提供理论依据，具有一定的有效性（3）系统收益与所分析影响因素间有明显联系。本文中所讨论的方法为共享单车网络中的单车投放数量以及定价提供了参考，并给出了有关共享单车网络管理的一些建议。
 \end{cabstract}
 
 \begin{eabstract}
-	To enhance the service quality of bikesharing programs, bike fleet relocation is widely applied to redistribute bikes from bike sufficient areas to bike shortage areas thereby making a better bike-rider balance across different areas. In this study, we first discuss the proper method to make demand prediction for bike sharing systems. Then, a network flow model is proposed to solve the optimal relocation problem of shared bikes, and is implemented with the actual dockless shared bike usage data from Yishun, Singapore, to demonstrate its effectiveness. A series of sensitivity analyses are performed to test the impact of the relocation cost, the number of bikes and truck trikes, and the usage price on bike relocation. The results reveal an apparent connection between the profitability of the system and the analyzed factors. This work offers a modeling framework to start and operate a bikesharing service by determining the number of bikes and trikes as well as price schemes. Some bikesharing regulation policies are also suggested.
+	Bikesharing relocation is one of the most important strategies to importve the operation efficience of the bikesharing systems. 
+	Through redistributing bikes from extremely bike sufficient areas to bike shortage areas, better bike-rider balance across different areas can be achieved. In this study, we first use GPS data to do spatial-temporal analysis of bikesharing usage patterns and use the interpretable machine learning model to make bike demand predition. On the base of the prediction model, a innovative network flow model is proposed to solve the optimal relocation problem of shared bikes, and is implemented with the actual dockless shared bike usage data from Yishun, Singapore, to demonstrate its effectiveness. Then a series of sensitivity analyses are performed to test the impact of the relocation cost, the number of bikes and truck trikes, and the usage price on bike relocation. The results show that (1)interpretable machine learning model can explain the influence of the variables on the result when also guaranteeing the accuracy, the explanation is consistent with the traditional generalized liner regression model. (2)the network flow model we developed can provide insight for making relocation operation scheme (3) there is an apparent connection between the profitability of the system and the analyzed factors. This work offers a modeling framework to start and operate a bikesharing service by determining the number of bikes and trikes as well as price schemes. Some bikesharing regulation policies are also suggested.
 \end{eabstract}
 
 % toc
@@ -158,6 +159,66 @@
 本文旨在提出一套完整的调度设计流程，从需求预测，到模型的构建，为实际调度计划的制订提供理论支撑。同时为了加深对于共享单车网络运营的理解，利用模型进行网络中各项因素的敏感性分析，以期对共享单车网络的更高效运营提供参考的切入点，使运营商在保证盈利的情况下有能力提供更好的出行用户服务。
 
 \clearpage
+\chapter{共享单车出行特征分析}
+\section{单车使用情况}
+
+在十月的出行订单中，所有用户骑行的距离和时间分布如下图\ref{distime}所示。由图中可以看出，骑行时间基本在20分钟以下，距离基本在两公里以内，属于正常的出行行为。以下数据分布情况可以在之后的数据处理过程中使用，即对于部分极端值，可以采用阈值法过滤处理。
+\begin{figure}[H]
+	\centering
+	\includegraphics[width= 1.0 \textwidth]{figures_main/dis_time.png}
+	\caption{使用情况}
+	\label{distime}
+\end{figure}
+
+除以上每次使用的统计情况之外，选取十月中的一周统计总车辆数和日单车使用次数、日平均单车使用时间如下表\ref{bikeusage}所示。
+\vspace{3mm}    %空一行
+\begin{table}[H]
+	\centering	
+	\caption{单车使用情况}
+	\label{bikeusage}
+	\renewcommand\arraystretch{1.5}	%行间距放大为1.5倍
+	\begin
+	{tabular}{p{15mm}<{\centering} p{15mm}<{\centering} p{15mm}<{\centering} p{15mm}<{\centering}}
+		\toprule[2pt]
+		Date & Used bikes & Average use time/min & Average use distance/km  \\
+		\midrule[1pt]
+		2017-10-09 & 14260 & 9.7 & 0.4\\
+		2017-10-10 & 13867 & 10.0 & 0.5 \\
+		2017-10-11 & 14836 & 10.1 & 0.4  \\
+		2017-10-12 & 12750 & 9.7 & 0.4 \\
+		2017-10-13 & 14790 & 10.3 & 0.4\\
+		2017-10-14 & 17444 & 11.4 & 0.4 \\
+		2017-10-15 & 17192 & 11.6 & 0.4 \\
+		2017-10-16 & 15301 & 9.9 & 0.4 \\
+		2017-10-17 & 15426 & 10.3 & 0.4 \\
+		\bottomrule[2pt]
+	\end{tabular}
+\end{table}
+\vspace{3mm}
+
+
+\section{需求随时间变化规律}
+
+选取几天的需求随时间变化规律展示如\ref{demand}所示。图中显示，工作日和周末的使用规律并不完全相同。在工作日，造成七点至十点、晚上五点到八点存在明显的使用高峰，而周末这种高峰规律会相对较弱，但在晚间仍然存在使用高峰。由于工作日和周末的规律不同，所以进行需求预测时，需要将两者分开建模，以提高模型预测的准确度。
+\begin{figure}[H]
+	\centering
+	\includegraphics[width= 1.0 \textwidth]{figures_main/week_demand.png}
+	\caption{需求随时间变化}
+	\label{demand}
+\end{figure}
+
+\section{新加坡天气情况}
+
+温度和降雨是影响单车出行的两个重要因素，所以接下来，我们对新加坡的温度变化和降雨情况进行分析。仍然选取与2.2中相同的时间，通过从新加坡开源数据网站https://data.gov.sg/获取的监测站温度数据，得到新加坡一天中温度的变化如图\ref{tempre}所示。由图中可以看出，新加坡的天气基本在中午十二点至下午四点达到一天中的最高峰，但一天中温度波动并不大，基本在五摄氏度以内。事实上，新加坡全年的温度大多都分布在20-30摄氏度，全年的气温差异并没有显著的季节区分。
+\begin{figure}[H]
+	\centering
+	\includegraphics[width= 1.0 \textwidth]{figures_main/tempre.png}
+	\caption{温度随时间变化}
+	\label{tempre}
+\end{figure}
+
+在以上选取的日期内，新加坡只在十月十二日与十月十五日有少量降雨，且降雨量都在1mm以下。事实上，除十二月、一月外，新加坡的月平均降雨基本都在200mm以下，整体来说降雨量并不大。
+\clearpage
 
 \chapter{需求预测}
 在单车调度模型中，站点间的需求通常是需要预先知道的输入条件。在现实生活中，制订调度计划通常是在调度需求真正发生前，即需要先对未来可能有的需求进行预测才能利用模型进行有效求解。本节将首先对单车需求预测的几种常用方法进行总结，并根据已有数据在这些方法上的测试效果，选取最适合本文使用数据集的预测模型，为之后的数值实验提供支撑。
@@ -190,40 +251,7 @@
 还有一类分类算法是基于深度学习的分类算法，这类算法具有处理大规模数据以及高非线性拟合度的优点，是近年来广泛运用于数据处理的一种有效算法。但由于本文不经关注预测结果，也关注结果的可解释性，而深度学习网络的参数多，可解释性较差，所以本文将不对深度学习进行讨论。
 
 \section{单车需求预测}
-由于具有计数数据特征，对于单车需求的预测可以尝试类泊松回归的方法；对单车需求预测的基本逻辑是寻找与需要预测的状况最相近的历史状态，即相似的时间段和环境、社会条件下可能产生的单车需求，所以也可以用KNN分类算法进行预测。建模过程分为数据准备、数据集划分、模型训练、模型测试这几个阶段。以下先对新加坡整体的单车使用相关情况进行描述性分析，再讨论数据准备过程，最后分别讨论这两个方法得到的最终结果。
-
-\subsection{描述性分析}
-（1）消费者使用习惯
-
-在十月的出行订单中，所有用户骑行的距离和时间分布如下图\ref{distime}所示。由图中可以看出，骑行时间基本在20分钟以下，距离基本在两公里以内，属于正常的出行行为。对于部分极端值，可以采用阈值法过滤处理。
-\begin{figure}[ht!]
-	\centering
-	\includegraphics[width= 1.0 \textwidth]{figures_main/dis_time.png}
-	\caption{使用情况}
-	\label{distime}
-\end{figure}
-
-（2）需求随时间变化规律
-
-选取几天的需求随时间变化规律展示如\ref{demand}所示。图中显示，工作日和周末的使用规律并不完全相同。在工作日，造成七点至十点、晚上五点到八点存在明显的使用高峰，而周末这种高峰规律会相对较弱，但在晚间仍然存在使用高峰。
-\begin{figure}[ht!]
-	\centering
-	\includegraphics[width= 1.0 \textwidth]{figures_main/week_demand.png}
-	\caption{需求随时间变化}
-	\label{demand}
-\end{figure}
-
-（3）新加坡天气情况
-
-温度和降雨是影响单车出行的两个重要因素，所以接下来，我们对新加坡的温度变化和降雨情况进行分析。仍然选取与（2）中相同的时间，通过从新加坡开源数据网站https://data.gov.sg/获取的监测站温度数据，得到新加坡一天中温度的变化如图\ref{tempre}所示。由图中可以看出，新加坡的天气基本在中午十二点至下午四点达到一天中的最高峰，但一天中温度波动并不大，基本在五摄氏度以内。事实上，新加坡全年的温度大多都分布在20-30摄氏度，全年的气温差异并没有显著的季节区分。
-\begin{figure}[ht!]
-	\centering
-	\includegraphics[width= 1.0 \textwidth]{figures_main/tempre.png}
-	\caption{温度随时间变化}
-	\label{tempre}
-\end{figure}
-
-在以上选取的日期内，新加坡只在十月十二日与十月十五日有少量降雨，且降雨量都在1mm以下。事实上，除十二月、一月外，新加坡的月平均降雨基本都在200mm以下，整体来说降雨量并不大。
+由于具有计数数据特征，对于单车需求的预测可以尝试类泊松回归的方法；对单车需求预测的基本逻辑是寻找与需要预测的状况最相近的历史状态，即相似的时间段和环境、社会条件下可能产生的单车需求，所以也可以用KNN分类算法进行预测。建模过程分为数据准备、数据集划分、模型训练、模型测试这几个阶段。以下先讨论数据准备过程，再分别讨论这两个方法得到的最终结果。
 
 
 \subsection{数据准备}
