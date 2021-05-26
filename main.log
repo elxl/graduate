@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.5.9)  24 MAY 2021 09:37
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.5.9)  26 MAY 2021 19:51
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1997,74 +1997,74 @@ File: logo.pdf Graphic file (type pdf)
 
 
 ]
-File: figures_main/spatial_distribution_aday.png Graphic file (type bmp)
-<figures_main/spatial_distribution_aday.png>
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
  [2]
-File: figures_main/unused_spatial_distribution_ratio.png Graphic file (type bmp)
-<figures_main/unused_spatial_distribution_ratio.png>
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
  [3]
+File: figures_main/procedure.png Graphic file (type bmp)
+<figures_main/procedure.png>
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
  [4]
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
  [5]
-File: logo.pdf Graphic file (type pdf)
-<use logo.pdf>
- [6]
 2
-
-Overfull \hbox (4.45583pt too wide) in paragraph at lines 163--164
-[]\TU/FZShuSong-Z01S(0)/m/n/10.53937 本 章 的 所 有 分 析 都 是 基 于 来 自 \TU/TimesNewRoman(0)/m/n/10.53937 obike \TU/FZShuSong-Z01S(0)/m/n/10.53937 的 订 单 数 据 或 从 新 加 坡 开 源 数 据 网 站 \TU/TimesNewRoman(0)/m/n/10.53937 https://data.gov.sg/\TU/FZShuSong-Z01S(0)/m/n/10.53937 获
- []
-
 File: figures_main/dis_time.png Graphic file (type bmp)
 <figures_main/dis_time.png>
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 182.
+(Font)              <6> on input line 177.
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
-[7
+[6
 
 
 ]
+File: figures_main/spatial_distribution_aday.png Graphic file (type bmp)
+<figures_main/spatial_distribution_aday.png>
+File: logo.pdf Graphic file (type pdf)
+<use logo.pdf>
+ [7]
+File: figures_main/unused_spatial_distribution_ratio.png Graphic file (type bmp)
+<figures_main/unused_spatial_distribution_ratio.png>
 File: figures_main/week_demand.png Graphic file (type bmp)
 <figures_main/week_demand.png>
+File: logo.pdf Graphic file (type pdf)
+<use logo.pdf>
+ [8]
 File: figures_main/tempre.png Graphic file (type bmp)
 <figures_main/tempre.png>
 
-Overfull \hbox (4.79547pt too wide) in paragraph at lines 214--220
-\TU/FZShuSong-Z01S(0)/m/n/10.53937 降 雨 情 况 进 行 分 析。|  仍 然 选 取 与 \TU/TimesNewRoman(0)/m/n/10.53937 2.2 \TU/FZShuSong-Z01S(0)/m/n/10.53937 中 相 同 的 时 间，|  通 过 从 新 加 坡 开 源 数 据 网 站 \TU/TimesNewRoman(0)/m/n/10.53937 https://data.gov.sg/\TU/FZShuSong-Z01S(0)/m/n/10.53937 获
+Overfull \hbox (4.79547pt too wide) in paragraph at lines 231--237
+\TU/FZShuSong-Z01S(0)/m/n/10.53937 降 雨 情 况 进 行 分 析。|  仍 然 选 取 与 \TU/TimesNewRoman(0)/m/n/10.53937 2.3 \TU/FZShuSong-Z01S(0)/m/n/10.53937 中 相 同 的 时 间，|  通 过 从 新 加 坡 开 源 数 据 网 站 \TU/TimesNewRoman(0)/m/n/10.53937 https://data.gov.sg/\TU/FZShuSong-Z01S(0)/m/n/10.53937 获
  []
 
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
-[8]
+[9]
 File: figures_main/tempreture_overall.png Graphic file (type bmp)
 <figures_main/tempreture_overall.png>
 File: figures_main/rainfalldays.png Graphic file (type bmp)
 <figures_main/rainfalldays.png>
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
- [9]
+ [10]
 File: figures_main/kriging.png Graphic file (type bmp)
 <figures_main/kriging.png>
 File: figures_main/kriging1.png Graphic file (type bmp)
 <figures_main/kriging1.png>
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
- [10]
+ [11]
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
- [11]
+ [12]
 3
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
-[12
+[13
 
 
 ]
@@ -2072,17 +2072,17 @@ File: figures_main/counthist.png Graphic file (type bmp)
 <figures_main/counthist.png>
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
- [13]
+ [14]
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
- [14] Excluding 'comment' comment.
+ [15] Excluding 'comment' comment.
 
-LaTeX Warning: Reference `weekend_score' on page 15 undefined on input line 368.
+LaTeX Warning: Reference `weekend_score' on page 16 undefined on input line 385.
 
 Excluding 'comment' comment. Excluding 'comment' comment.
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
- [15]
+ [16]
 File: figures_main/ex_weekday1.png Graphic file (type bmp)
 <figures_main/ex_weekday1.png>
 File: figures_main/ex_weekday2.png Graphic file (type bmp)
@@ -2091,7 +2091,7 @@ File: figures_main/shape_weekday.png Graphic file (type bmp)
 <figures_main/shape_weekday.png>
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
- [16]
+ [17]
 File: figures_main/shap1_weekday.png Graphic file (type bmp)
 <figures_main/shap1_weekday.png>
 File: figures_main/shap_weekend.png Graphic file (type bmp)
@@ -2100,14 +2100,14 @@ File: figures_main/shap1_weekend.png Graphic file (type bmp)
 <figures_main/shap1_weekend.png>
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
- [17]
+ [18]
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
- [18]
+ [19]
 4
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
-[19
+[20
 
 
 ]
@@ -2115,13 +2115,13 @@ File: figures_main/network_example.png Graphic file (type bmp)
 <figures_main/network_example.png>
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
- [20]
-File: logo.pdf Graphic file (type pdf)
-<use logo.pdf>
  [21]
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
  [22]
+File: logo.pdf Graphic file (type pdf)
+<use logo.pdf>
+ [23]
 5
 File: figures_main/regions.png Graphic file (type bmp)
 <figures_main/regions.png>
@@ -2129,97 +2129,97 @@ File: figures_main/location_yishun.png Graphic file (type bmp)
 <figures_main/location_yishun.png>
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
-[23
+[24
 
 
 ]
-Overfull \hbox (4.07222pt too wide) in paragraph at lines 672--673
+Overfull \hbox (4.07222pt too wide) in paragraph at lines 689--690
  []|\TU/TimesNewRoman(0)/m/n/9.03374 225,488,602,899| 
  []
 
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
-[24]
+[25]
 File: figures_main/selected_nodes10.png Graphic file (type bmp)
 <figures_main/selected_nodes10.png>
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
- [25]
+ [26]
 File: figures_main/visualiza_solution_trike.png Graphic file (type bmp)
 <figures_main/visualiza_solution_trike.png>
 File: figures_main/element_illustration.png Graphic file (type bmp)
 <figures_main/element_illustration.png>
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
- [26]
+ [27]
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
- [27]
+ [28]
 File: figures_main/selected_nodes.png Graphic file (type bmp)
 <figures_main/selected_nodes.png>
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
- [28]
+ [29]
 File: figures_main/sens_trike_notrikecost.png Graphic file (type bmp)
 <figures_main/sens_trike_notrikecost.png>
 File: figures_main/sens_trike_70.png Graphic file (type bmp)
 <figures_main/sens_trike_70.png>
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
- [29]
+ [30]
 File: figures_main/sens_trike_compare.png Graphic file (type bmp)
 <figures_main/sens_trike_compare.png>
 File: figures_main/sensitivity_bike.png Graphic file (type bmp)
 <figures_main/sensitivity_bike.png>
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
- [30]
+ [31]
 File: figures_main/sensitivity_cost.png Graphic file (type bmp)
 <figures_main/sensitivity_cost.png>
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
- [31]
+ [32]
 File: figures_main/sensitivity_price.png Graphic file (type bmp)
 <figures_main/sensitivity_price.png>
 File: figures_main/revenue_change_with_capacity.png Graphic file (type bmp)
 <figures_main/revenue_change_with_capacity.png>
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
- [32]
+ [33]
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
- [33]
+ [34]
 6
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
-[34
+[35
 
 
 ]
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
- [35] Excluding 'comment' comment.
-Underfull \hbox (badness 242) in paragraph at lines 950--950
+ [36] Excluding 'comment' comment.
+Underfull \hbox (badness 242) in paragraph at lines 967--967
 []\TU/TimesNewRoman(0)/m/n/10.53937 ERDOĞAN G, BATTARRA M, CALVO R W. An exact algorithm for the static rebalancing
  []
 
 
-Underfull \hbox (badness 192) in paragraph at lines 950--950
+Underfull \hbox (badness 192) in paragraph at lines 967--967
 []\TU/TimesNewRoman(0)/m/n/10.53937 PAL A, ZHANG Y. Free-floating bike sharing: Solving real-life large-scale static rebalancing
  []
 
 
-Underfull \hbox (badness 111) in paragraph at lines 950--950
+Underfull \hbox (badness 111) in paragraph at lines 967--967
 []\TU/TimesNewRoman(0)/m/n/10.53937 SCHUIJBROEK J, HAMPSHIRE R C, VAN HOEVE W J. Inventory rebalancing and vehicle
  []
 
 
-Underfull \hbox (badness 468) in paragraph at lines 950--950
+Underfull \hbox (badness 468) in paragraph at lines 967--967
 []\TU/TimesNewRoman(0)/m/n/10.53937 FRADE I, RIBEIRO A. Bicycle sharing systems demand[J]. Procedia-Social and Behavioral
  []
 
 
-Underfull \hbox (badness 275) in paragraph at lines 950--950
+Underfull \hbox (badness 275) in paragraph at lines 967--967
 []\TU/TimesNewRoman(0)/m/n/10.53937 KALTENBRUNNER A, MEZA R, GRIVOLLA J, et al. Urban cycles and mobility patterns:
  []
 
@@ -2248,50 +2248,50 @@ Package fontspec Info: Font family 'FZKai-Z03S(0)' created for font
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 
-Underfull \hbox (badness 102) in paragraph at lines 950--950
+Underfull \hbox (badness 102) in paragraph at lines 967--967
 []\TU/TimesNewRoman(0)/m/n/10.53937 CHEN L, ZHANG D, WANG L, et al. Dynamic cluster-based over-demand prediction in bike
  []
 
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
-[36
+[37
 
 
 ]
-Underfull \hbox (badness 135) in paragraph at lines 950--950
+Underfull \hbox (badness 135) in paragraph at lines 967--967
 []\TU/TimesNewRoman(0)/m/n/10.53937 LI Y, ZHU Z, GUO X. Operating characteristics of dockless bike-sharing systems near metro
  []
 
 
-Underfull \hbox (badness 105) in paragraph at lines 950--950
+Underfull \hbox (badness 105) in paragraph at lines 967--967
 []\TU/TimesNewRoman(0)/m/n/10.53937 DUAN Y, WU J. Optimizing rebalance scheme for dock-less bike sharing systems with adap-
  []
 
 
-Underfull \hbox (badness 169) in paragraph at lines 950--950
+Underfull \hbox (badness 169) in paragraph at lines 967--967
 []\TU/TimesNewRoman(0)/m/n/10.53937 LUKUSA M T, PHOA F K H. A Horvitz-type estimation on incomplete traffic accident data
  []
 
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
-[37]
-Underfull \hbox (badness 265) in paragraph at lines 950--950
+[38]
+Underfull \hbox (badness 265) in paragraph at lines 967--967
 []\TU/TimesNewRoman(0)/m/n/10.53937 Gurobi Optimization Inc. Gurobi optimizer reference manual[J]. URL http://www.gurobi.com,
  []
 
 
-Underfull \hbox (badness 404) in paragraph at lines 950--950
+Underfull \hbox (badness 404) in paragraph at lines 967--967
 []\TU/TimesNewRoman(0)/m/n/10.53937 KAVITI S, VENIGALLA M M. Assessing service and price sensitivities, and pivot elastici-
  []
 
 
-Underfull \hbox (badness 213) in paragraph at lines 950--950
+Underfull \hbox (badness 213) in paragraph at lines 967--967
 \TU/TimesNewRoman(0)/m/n/10.53937 ties of public bikeshare system users through monadic design and ordered logit regression[J].
  []
 
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
-[38]
+[39]
 \tf@thm=\write11
 \openout11 = `main.thm'.
 
@@ -2299,7 +2299,7 @@ File: logo.pdf Graphic file (type pdf)
 AED: lastpage setting LastPage
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
-[39
+[40
 
 
 ] (./main.aux)
@@ -2314,18 +2314,18 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 08E84FC4AD0C593957D76AA3DFDD72B7;4249.
+(rerunfilecheck)             Checksum: F9E502E5F2F94904DC42AB07592254C3;4249.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44377 strings out of 476919
- 936890 string characters out of 5825425
- 1959555 words of memory out of 5000000
- 63463 multiletter control sequences out of 15000+600000
+ 44383 strings out of 476919
+ 937047 string characters out of 5825425
+ 1959595 words of memory out of 5000000
+ 63469 multiletter control sequences out of 15000+600000
  440378 words of font info for 163 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  115i,17n,118p,1502b,4949s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (43 pages).
+Output written on main.pdf (44 pages).
